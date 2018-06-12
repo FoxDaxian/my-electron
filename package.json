@@ -6,17 +6,16 @@
     "author": "a13821190779 <945039036@qq.com>",
     "license": "MIT",
     "scripts": {
-        "start": "electron .",
+        "dev": "electron .",
         "build": "electron-builder"
     },
     "build": {
         "appId": "com.example.fox",
-		"Copyright": "Copyright © year fox",
         "mac": {
-            "category": "your.app.category.type"
+            "category": "public.app-category.developer-tools"
         },
         "win": {
-            "iconUrl": "(windows-only) https link to icon"
+            "icon": "http://ku.90sjimg.com/element_origin_min_pic/01/42/46/92573d7b9548f2c.jpg"
         }
     },
     "devDependencies": {
